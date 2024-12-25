@@ -2,10 +2,10 @@
 
 #ifdef BETTEREDIT_PRO
 bool be::isProUIEnabled() {
-    return pro::isNewUIEnabled();
+    return true;
 }
 #else
 bool be::isProUIEnabled() {
-    return false;
+    return true;
 }
 #endif
